@@ -86,6 +86,14 @@ a:hover .caption {
 }
 }
 
+em {
+    opacity: 0;
+}
+
+em:hover {
+    opacity: 1;
+}
+
 @media screen and (min-width: 60em) {
 .cards {
     grid-template-columns: repeat(4, 1fr);
